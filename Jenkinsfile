@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('fetch code') {
           steps{
-              git branch: 'vp-rem', url: "https://github.com/devopshydclub/vprofile-repo.git"
+              git branch: 'master', url: "https://github.com/sosotechnologies/cicd-maven.git"
           }  
         }
 
